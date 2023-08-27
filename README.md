@@ -1,8 +1,8 @@
 # BlockTurbo Account Abstraction Demo App
 
-[The Safe{Core} SDK](https://github.com/safe-global/safe-core-sdk) allows builders to add account abstraction functionality into their apps. This demo is an example on how to use our different packages (Auth Kit, OnRamp Kit & Relay Kit).
+![alt text](./src/assets/BT-logo-light.png)
 
-See the [Safe{Core} Account Abstraction SDK Docs](https://docs.safe.global/learn/safe-core-account-abstraction-sdk) for more details.
+This demo is an example on account abstraction.
 
 ## Installation
 
