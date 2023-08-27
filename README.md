@@ -1,4 +1,4 @@
-# Account Abstraction demo app
+# BlockTurbo Account Abstraction Demo App
 
 [The Safe{Core} SDK](https://github.com/safe-global/safe-core-sdk) allows builders to add account abstraction functionality into their apps. This demo is an example on how to use our different packages (Auth Kit, OnRamp Kit & Relay Kit).
 
@@ -11,7 +11,7 @@ To run this project locally:
 Install deps:
 
 ```bash
-yarn install
+npm install
 ```
 
 Create a `.env` file (see `example.env`)
@@ -29,6 +29,5 @@ REACT_APP_STRIPE_PUBLIC_KEY=pk_test_51MZbmZKSn9ArdBimSyl5i8DqfcnlhyhJHD8bF2wKrGk
 Run the demo App:
 
 ```bash
-yarn start
+npm start
 ```
-# walllet-ui
