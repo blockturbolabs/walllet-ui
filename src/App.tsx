@@ -51,7 +51,7 @@ function App() {
           gap={3}
           alignItems="flex-start"
           maxWidth="1200px"
-          margin="120px auto 42px auto"
+          margin="50px auto 30px auto"
         >
           {showSafeCoreVideo ? (
             <SafeCoreInfo />

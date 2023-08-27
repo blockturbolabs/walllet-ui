@@ -63,7 +63,7 @@ function SafeInfo({ safeAddress, chainId }: SafeInfoProps) {
         ) : (
           <img
             src={isDarkTheme ? safeLogoDark : safeLogoLight}
-            alt="connected Safe account logo"
+            alt="connected BlockTurbo account logo"
             height="50px"
           />
         )}
@@ -88,7 +88,7 @@ function SafeInfo({ safeAddress, chainId }: SafeInfoProps) {
 
         {!isDeployed && !isDeployLoading && (
           <CreationPendingLabel>
-            <Tooltip title="This Safe is not deployed yet, it will be deployed when you execute the first transaction">
+            <Tooltip title="This BlockTurbo is not deployed yet, it will be deployed when you execute the first transaction">
               <Typography fontWeight="700" fontSize="12px" color="inherit">
                 Creation pending
               </Typography>

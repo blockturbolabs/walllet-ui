@@ -8,7 +8,7 @@ import DarkThemeIcon from '@mui/icons-material/Brightness4'
 import LightThemeIcon from '@mui/icons-material/Brightness7'
 
 import ChainLabel from 'src/components/chain-label/ChainLabel'
-import safeHeaderLogo from 'src/assets/safe-header-logo.svg'
+import safeHeaderLogo from 'src/assets/BT-logo-header-black-tr.png'
 import { useTheme } from 'src/store/themeContext'
 import { useAccountAbstraction } from 'src/store/accountAbstractionContext'
 
@@ -32,6 +32,7 @@ function Header({ setStep }: HeaderProps) {
             id="app-logo-header"
             src={safeHeaderLogo}
             alt="app logo"
+            height="80px"
           />
 
           <Box display="flex" alignItems="center" justifyContent="flex-end" flexGrow={1} gap={1}>

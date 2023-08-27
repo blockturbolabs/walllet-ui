@@ -37,7 +37,7 @@ const OnRampKitDemo = () => {
 
       <Typography marginTop="16px">
         Allow users to buy cryptocurrencies using a credit card and other payment options directly
-        within your app. Click on "Buy USDC" to on-ramp funds to your Safe using the Stripe widget!
+        within your app. Click on "Buy USDC" to on-ramp funds to your BlockTurbo Account using the Stripe widget!
       </Typography>
 
       <Typography marginTop="24px" marginBottom="8px">
@@ -90,7 +90,7 @@ const OnRampKitDemo = () => {
             <Typography fontWeight="700">Safe Account</Typography>
 
             <Typography fontSize="14px" marginTop="8px" marginBottom="32px">
-              Your Safe account (Smart Contract) holds and protects your assets.
+              Your BlockTurbo account (Smart Contract) holds and protects your assets.
             </Typography>
 
             {/* Safe Info */}
@@ -113,7 +113,7 @@ const OnRampKitDemo = () => {
             </Typography>
 
             {!showStripeWidget ? (
-              <Tooltip title={'buy USDC to your Safe address using Stripe payment provider'}>
+              <Tooltip title={'buy USDC to your BlockTurbo address using Stripe payment provider'}>
                 {/* Buy USDC with our OnRamp kit */}
                 <Button
                   startIcon={<WalletIcon />}

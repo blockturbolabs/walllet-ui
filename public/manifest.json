@@ -1,6 +1,6 @@
 {
-  "short_name": "Safe AA POC",
-  "name": "Safe Account Abstraction Sample App",
+  "short_name": "BlockTurbo AA POC",
+  "name": "BlockTurbo Account Abstraction App",
   "icons": [
     {
       "src": "favicon.ico",

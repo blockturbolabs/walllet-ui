@@ -21,7 +21,7 @@ function SafesOwnedSelector({ safeSelected, onSelectSafe }: SafesOwnedSelectorPr
 
   return (
     <FormControl sx={{ m: 1, minWidth: 80 }}>
-      <InputLabel id="owned-safes-selector-label">Safes owned</InputLabel>
+      <InputLabel id="owned-safes-selector-label">BlockTurbo Accounts owned</InputLabel>
       <Select
         labelId="owned-safes-selector-label"
         id="owned-safes-selector"

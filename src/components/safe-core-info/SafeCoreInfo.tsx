@@ -2,17 +2,13 @@ import Typography from '@mui/material/Typography'
 import Stack from '@mui/material/Stack'
 import Link from '@mui/material/Link'
 
-import introVideo from 'src/assets/intro-chip.webm'
-import introImage from 'src/assets/intro-chip.png'
+import introImage from 'src/assets/home-img.png'
 
 const SafeCoreInfo = () => {
   return (
     <div>
-      {/* video loop */}
-      <video autoPlay loop muted height="500px" width="500px">
-        <source src={introVideo} />
-        <img src={introImage} alt="safe core img" />
-      </video>
+      {/* hero image */}
+      <img src={introImage} alt="blockturbo img" height="500px" width="500px" />
 
       {/* Links */}
       <Typography marginLeft={'42px'} marginTop={'24px'}>
@@ -31,9 +27,9 @@ const SafeCoreInfo = () => {
           Documentation
         </Link>
 
-        <Link href="https://chat.safe.global" target="_blank">
+        {/* <Link href="https://chat.safe.global" target="_blank">
           Discord
-        </Link>
+        </Link> */}
       </Stack>
     </div>
   )
