@@ -76,7 +76,7 @@ const OnRampKitDemo = () => {
           gap={3}
         >
           <Typography variant="h4" component="h3" fontWeight="700">
-            To use the Onramp Kit you need to be authenticated
+            To use the Fiat Onramp feature you need to be authenticated
           </Typography>
 
           <Button variant="contained" onClick={loginWeb3Auth}>
@@ -85,12 +85,11 @@ const OnRampKitDemo = () => {
         </ConnectedContainer>
       ) : (
         <Box display="flex" gap={3} alignItems="flex-start">
-          {/* safe Account */}
           <ConnectedContainer>
-            <Typography fontWeight="700">Safe Account</Typography>
+            <Typography fontWeight="700">BlockTurbo Wallet</Typography>
 
             <Typography fontSize="14px" marginTop="8px" marginBottom="32px">
-              Your BlockTurbo account (Smart Contract) holds and protects your assets.
+              Your BlockTurbo wallet (Smart Contract) holds and protects your assets.
             </Typography>
 
             {/* Safe Info */}
@@ -151,23 +150,6 @@ const OnRampKitDemo = () => {
           </ConnectedContainer>
         </Box>
       )}
-
-      <Divider style={{ margin: '40px 0 30px 0' }} />
-
-      <Typography variant="h3" component="h2" fontWeight="700" marginBottom="16px">
-        How to use it
-      </Typography>
-
-      {/* TODO: create a component for this? */}
-      <CodeContainer>
-        <CodeBlock
-          text={code}
-          language={'javascript'}
-          showLineNumbers
-          startingLineNumber={96}
-          theme={atomOneDark}
-        />
-      </CodeContainer>
     </>
   )
 }
