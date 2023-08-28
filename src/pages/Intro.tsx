@@ -24,7 +24,11 @@ const Intro = ({ setStep }: IntroProps) => {
       {/* <img src={blockTurboLogo} alt="blockturbo logo" height="100px" /> */}
 
       <Typography variant="h1" fontSize="64px" lineHeight="76px">
-        BlockTurbo Smart Contract Wallet
+        BlockTurbo
+      </Typography>
+
+      <Typography variant="h2" fontSize="50px" lineHeight="76px">
+        Smart Contract Wallet
       </Typography>
 
       <Typography variant="body1">
@@ -62,7 +66,7 @@ const Intro = ({ setStep }: IntroProps) => {
         </Box>
       </Box>
 
-      <Divider style={{ alignSelf: 'stretch', margin: '42px 0' }} />
+      <Divider style={{ alignSelf: 'stretch', margin: '20px 0' }} />
 
       <Typography variant="h2" fontWeight="700" fontSize="20px">
         Select a network:
