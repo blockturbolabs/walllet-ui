@@ -1,6 +1,6 @@
-import Typography from '@mui/material/Typography'
-import Stack from '@mui/material/Stack'
-import Link from '@mui/material/Link'
+// import Typography from '@mui/material/Typography'
+// import Stack from '@mui/material/Stack'
+// import Link from '@mui/material/Link'
 
 import introImage from 'src/assets/home-img.png'
 
