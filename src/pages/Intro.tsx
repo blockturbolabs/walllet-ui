@@ -5,7 +5,7 @@ import Divider from '@mui/material/Divider'
 import styled from '@emotion/styled'
 import { Theme } from '@mui/material'
 
-import blockTurboLogo from 'src/assets/BT-logo-light.png'
+// import blockTurboLogo from 'src/assets/BT-logo-light.png'
 import ChainSelector from 'src/components/chain-selector/ChainSelector'
 
 type IntroProps = {
@@ -21,7 +21,7 @@ const Intro = ({ setStep }: IntroProps) => {
       paddingTop="5px"
       paddingLeft="100px"
     >
-      <img src={blockTurboLogo} alt="blockturbo logo" height="100px" />
+      {/* <img src={blockTurboLogo} alt="blockturbo logo" height="100px" /> */}
 
       <Typography variant="h1" fontSize="64px" lineHeight="76px">
         BlockTurbo Smart Contract Wallet

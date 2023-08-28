@@ -90,7 +90,7 @@ const RelayerKitDemo = () => {
           gap={3}
         >
           <Typography variant="h4" component="h3" fontWeight="700">
-            To use the Relay Kit you need to be authenticated
+            To use the Fee Abstraction feature you need to be authenticated
           </Typography>
 
           <Button variant="contained" onClick={loginWeb3Auth}>
@@ -101,10 +101,10 @@ const RelayerKitDemo = () => {
         <Box display="flex" gap={3}>
           {/* safe Account */}
           <ConnectedContainer>
-            <Typography fontWeight="700">BlockTurbo Account</Typography>
+            <Typography fontWeight="700">BlockTurbo Wallet</Typography>
 
             <Typography fontSize="14px" marginTop="8px" marginBottom="32px">
-              Your BlockTurbo account (Smart Contract) holds and protects your assets.
+              Your BlockTurbo wallet (Smart Contract) holds and protects your assets.
             </Typography>
 
             {/* Safe Info */}
