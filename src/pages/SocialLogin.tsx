@@ -11,7 +11,7 @@ import ConnectedWalletLabel from 'src/components/connected-wallet-label/Connecte
 import SafeInfo from 'src/components/safe-info/SafeInfo'
 import { useAccountAbstraction } from 'src/store/accountAbstractionContext'
 
-const AuthKitDemo = () => {
+const SocialLogin = () => {
   const { loginWeb3Auth, isAuthenticated, safeSelected, chainId } = useAccountAbstraction()
 
   return (
@@ -21,7 +21,7 @@ const AuthKitDemo = () => {
       </Typography>
 
       <Typography marginTop="16px">
-        Generate or authenticate a blockchain account using an email address, social media account,
+        Generate or authenticate a BlockTurbo Smart Contract Wallet using an email address, social media account,
         or traditional crypto wallets like Metamask.
       </Typography>
 
@@ -54,7 +54,7 @@ const AuthKitDemo = () => {
 
       {isAuthenticated ? (
         <Box display="flex" gap={3}>
-          {/* safe Account */}
+          {/* BT Wallet */}
           <ConnectedContainer>
             <Typography fontWeight="700">BlockTurbo Wallet</Typography>
 
@@ -96,7 +96,7 @@ const AuthKitDemo = () => {
   )
 }
 
-export default AuthKitDemo
+export default SocialLogin
 const ConnectContainer = styled(Box)<{
   theme?: Theme
 }>(

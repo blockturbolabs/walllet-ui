@@ -16,7 +16,7 @@ import { useState } from 'react'
 import SafeInfo from 'src/components/safe-info/SafeInfo'
 import { useAccountAbstraction } from 'src/store/accountAbstractionContext'
 
-const OnRampKitDemo = () => {
+const FiatOnramp = () => {
   const {
     openStripeWidget,
     closeStripeWidget,
@@ -37,7 +37,7 @@ const OnRampKitDemo = () => {
 
       <Typography marginTop="16px">
         Allow users to buy cryptocurrencies using a credit card and other payment options directly
-        within your app. Click on "Buy USDC" to on-ramp funds to your BlockTurbo Account using the Stripe widget!
+        within your app. Click on "Buy USDC" to on-ramp funds to your BlockTurbo Wallet using the Stripe widget!
       </Typography>
 
       {/* <Typography marginTop="24px" marginBottom="8px">
@@ -154,7 +154,7 @@ const OnRampKitDemo = () => {
   )
 }
 
-export default OnRampKitDemo
+export default FiatOnramp
 
 const code = `import { StripePack } from '@safe-global/onramp-kit'
 

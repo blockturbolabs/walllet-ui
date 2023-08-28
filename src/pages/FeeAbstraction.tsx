@@ -19,7 +19,7 @@ import { useAccountAbstraction } from 'src/store/accountAbstractionContext'
 
 const transferAmount = 0.01
 
-const RelayerKitDemo = () => {
+const FeeAbstraction = () => {
   const {
     chainId,
     chain,
@@ -45,12 +45,12 @@ const RelayerKitDemo = () => {
   return (
     <>
       <Typography variant="h2" component="h1">
-        Non-ETH Gas Payments
+        Fee Abstraction
       </Typography>
 
       <Typography marginTop="16px">
         Allow users to pay fees using any ERC-20 tokens, without having to manage gas. Sponsor
-        transactions on behalf of your users. On your first relayed transaction, a BlockTurbo Account will
+        transactions on behalf of your users. On your first relayed transaction, a BlockTurbo Wallet will
         be automatically deployed and your address will be assigned as the BlockTurbo owner.
       </Typography>
 
@@ -99,7 +99,7 @@ const RelayerKitDemo = () => {
         </ConnectedContainer>
       ) : (
         <Box display="flex" gap={3}>
-          {/* safe Account */}
+          {/* BT Wallet */}
           <ConnectedContainer>
             <Typography fontWeight="700">BlockTurbo Wallet</Typography>
 
@@ -180,7 +180,7 @@ const RelayerKitDemo = () => {
   )
 }
 
-export default RelayerKitDemo
+export default FeeAbstraction
 
 const ConnectedContainer = styled(Box)<{
   theme?: Theme

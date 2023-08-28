@@ -8,10 +8,10 @@ import { useCallback, useState } from 'react'
 
 import Header from 'src/components/header/Header'
 import Providers from 'src/components/providers/Providers'
-import AuthKitDemo from 'src/pages/AuthKitDemo'
+import SocialLogin from 'src/pages/SocialLogin'
 import Intro from 'src/pages/Intro'
-import OnRampKitDemo from 'src/pages/OnRampKitDemo'
-import RelayerKitDemo from 'src/pages/RelayerKitDemo'
+import FiatOnramp from 'src/pages/FiatOnramp'
+import FeeAbstraction from 'src/pages/FeeAbstraction'
 import NavMenu from './components/nav-menu/NavMenu'
 import SafeCoreInfo from './components/safe-core-info/SafeCoreInfo'
 
@@ -107,17 +107,17 @@ const steps = [
     component: Intro
   },
   {
-    // Auth Kit step
-    component: AuthKitDemo,
-    nextLabel: 'to Onramp Kit'
+    // Social Login step
+    component: SocialLogin,
+    nextLabel: 'to Fiat Onramp'
   },
   {
-    // Onramp Kit step
-    component: OnRampKitDemo,
-    nextLabel: 'to Relay Kit'
+    // Fiat Onramp step
+    component: FiatOnramp,
+    nextLabel: 'to Fee Abstraction'
   },
   {
-    // Relay Kit step
-    component: RelayerKitDemo
+    // Fee Abstraction step
+    component: FeeAbstraction
   }
 ]
