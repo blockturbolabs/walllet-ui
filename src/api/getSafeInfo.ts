@@ -19,7 +19,7 @@ const getSafeInfo = async (
 
   const address = utils.getAddress(safeAddress)
 
-  // Mumbai has no transaction service because it is not part of our official UI https://app.safe.global/
+  // Mumbai has no transaction service because it is not part of our official UI
   if (!chain?.transactionServiceUrl) {
     throw new Error(`No transaction service for ${chain?.label} chain`)
   }
