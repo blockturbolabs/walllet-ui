@@ -28,8 +28,8 @@ const Intro = ({ setStep }: IntroProps) => {
       </Typography>
 
       <Typography variant="body1">
-        Add account abstraction functionality into your apps. Here you can find examples on how to
-        use our different kits:
+      We're excited to bring you BlockTurbo Wallet, a cutting-edge venture focused on developing a crypto wallet powered by Account Abstraction technology. 
+      Account Abstraction is a game-changing concept in the blockchain world, set to enhance the flexibility and efficiency of smart contracts and transactions.
       </Typography>
 
       {/* Kit list */}
@@ -65,11 +65,11 @@ const Intro = ({ setStep }: IntroProps) => {
       <Divider style={{ alignSelf: 'stretch', margin: '42px 0' }} />
 
       <Typography variant="h2" fontWeight="700" fontSize="20px">
-        To start using interactive demo select a network:
+        Select a network:
       </Typography>
 
       <Typography>
-        Consider that the fiat onramp function will only work on Mumbai test chain and US based connection.
+        Consider that the fiat onramp function will only work on Polygon-Mumbai test chain and US based connection.
       </Typography>
 
       <Box display="flex" gap={2} marginTop="32px" alignItems="center">
