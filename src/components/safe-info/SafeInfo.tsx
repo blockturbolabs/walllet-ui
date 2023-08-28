@@ -88,9 +88,9 @@ function SafeInfo({ safeAddress, chainId }: SafeInfoProps) {
 
         {!isDeployed && !isDeployLoading && (
           <CreationPendingLabel>
-            <Tooltip title="This BlockTurbo is not deployed yet, it will be deployed when you execute the first transaction">
+            <Tooltip title="This wallet is not deployed yet, it will be deployed when you execute the first transaction">
               <Typography fontWeight="700" fontSize="12px" color="inherit">
-                Creation pending
+                Creation pending after first transaction
               </Typography>
             </Tooltip>
           </CreationPendingLabel>
