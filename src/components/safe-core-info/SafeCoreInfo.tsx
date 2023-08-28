@@ -11,11 +11,11 @@ const SafeCoreInfo = () => {
       <img src={introImage} alt="blockturbo img" height="500px" width="500px" />
 
       {/* Links */}
-      <Typography marginLeft={'42px'} marginTop={'24px'}>
+      {/* <Typography marginLeft={'42px'} marginTop={'24px'}>
         More information about the SDK:
-      </Typography>
+      </Typography> */}
 
-      <Stack direction="row" alignItems="center" spacing={2} marginTop={'8px'} marginLeft={'42px'}>
+      {/* <Stack direction="row" alignItems="center" spacing={2} marginTop={'8px'} marginLeft={'42px'}>
         <Link href="https://github.com/safe-global/safe-core-sdk" target="_blank">
           Github
         </Link>
@@ -27,10 +27,10 @@ const SafeCoreInfo = () => {
           Documentation
         </Link>
 
-        {/* <Link href="https://chat.safe.global" target="_blank">
+        <Link href="https://chat.safe.global" target="_blank">
           Discord
-        </Link> */}
-      </Stack>
+        </Link>
+      </Stack> */}
     </div>
   )
 }

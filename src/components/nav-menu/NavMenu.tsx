@@ -25,7 +25,7 @@ const NavMenu = ({ setStep, activeStep }: NavMenuProps) => {
             01
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px" marginLeft="12px">
-            Auth Kit
+            Social Login
           </Typography>
         </NavItem>
 
@@ -34,7 +34,7 @@ const NavMenu = ({ setStep, activeStep }: NavMenuProps) => {
             02
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px" marginLeft="12px">
-            Onramp Kit
+            Fiat Onramp
           </Typography>
         </NavItem>
 
@@ -43,7 +43,7 @@ const NavMenu = ({ setStep, activeStep }: NavMenuProps) => {
             03
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px" marginLeft="12px">
-            Relay Kit
+            Fee Abstraction
           </Typography>
         </NavItem>
       </MenuList>

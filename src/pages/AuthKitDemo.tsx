@@ -17,7 +17,7 @@ const AuthKitDemo = () => {
   return (
     <>
       <Typography variant="h2" component="h1">
-        The Auth Kit
+        Social Login
       </Typography>
 
       <Typography marginTop="16px">
@@ -25,7 +25,7 @@ const AuthKitDemo = () => {
         or traditional crypto wallets like Metamask.
       </Typography>
 
-      <Typography marginTop="24px" marginBottom="8px">
+      {/* <Typography marginTop="24px" marginBottom="8px">
         Find more info at:
       </Typography>
 
@@ -43,7 +43,7 @@ const AuthKitDemo = () => {
         >
           Documentation
         </Link>
-      </Stack>
+      </Stack> */}
 
       <Divider style={{ margin: '32px 0 28px 0' }} />
 

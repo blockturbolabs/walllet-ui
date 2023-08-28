@@ -45,7 +45,7 @@ const RelayerKitDemo = () => {
   return (
     <>
       <Typography variant="h2" component="h1">
-        The Relay Kit
+        Non-ETH Gas Payments
       </Typography>
 
       <Typography marginTop="16px">
@@ -54,7 +54,7 @@ const RelayerKitDemo = () => {
         be automatically deployed and your address will be assigned as the BlockTurbo owner.
       </Typography>
 
-      <Typography marginTop="24px" marginBottom="8px">
+      {/* <Typography marginTop="24px" marginBottom="8px">
         Find more info at:
       </Typography>
 
@@ -72,7 +72,7 @@ const RelayerKitDemo = () => {
         >
           Documentation
         </Link>
-      </Stack>
+      </Stack> */}
 
       <Divider sx={{ margin: '32px 0 28px 0' }} />
 

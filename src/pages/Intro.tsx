@@ -24,7 +24,7 @@ const Intro = ({ setStep }: IntroProps) => {
       <img src={blockTurboLogo} alt="blockturbo logo" height="100px" />
 
       <Typography variant="h1" fontSize="64px" lineHeight="76px">
-        Account Abstraction SDK
+        BlockTurbo Smart Contract Wallet
       </Typography>
 
       <Typography variant="body1">
@@ -39,7 +39,7 @@ const Intro = ({ setStep }: IntroProps) => {
             01
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px">
-            Auth Kit
+            Social Login
           </Typography>
         </Box>
 
@@ -48,7 +48,7 @@ const Intro = ({ setStep }: IntroProps) => {
             02
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px">
-            Onramp Kit
+            Fiat Onramp
           </Typography>
         </Box>
 
@@ -57,7 +57,7 @@ const Intro = ({ setStep }: IntroProps) => {
             03
           </OrderLabel>
           <Typography fontWeight="700" fontSize="20px">
-            Relay Kit
+            Fee Abstraction
           </Typography>
         </Box>
       </Box>
@@ -69,7 +69,7 @@ const Intro = ({ setStep }: IntroProps) => {
       </Typography>
 
       <Typography>
-        Consider that the Onramp kit will only work on Mumbai test chain and US based connection.
+        Consider that the fiat onramp function will only work on Mumbai test chain and US based connection.
       </Typography>
 
       <Box display="flex" gap={2} marginTop="32px" alignItems="center">

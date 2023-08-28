@@ -32,7 +32,7 @@ const OnRampKitDemo = () => {
   return (
     <>
       <Typography variant="h2" component="h1">
-        The Onramp Kit
+        Fiat Onramp
       </Typography>
 
       <Typography marginTop="16px">
@@ -40,7 +40,7 @@ const OnRampKitDemo = () => {
         within your app. Click on "Buy USDC" to on-ramp funds to your BlockTurbo Account using the Stripe widget!
       </Typography>
 
-      <Typography marginTop="24px" marginBottom="8px">
+      {/* <Typography marginTop="24px" marginBottom="8px">
         Find more info at:
       </Typography>
 
@@ -58,7 +58,7 @@ const OnRampKitDemo = () => {
         >
           Documentation
         </Link>
-      </Stack>
+      </Stack> */}
 
       <Divider style={{ margin: '32px 0 28px 0' }} />
 
