@@ -1,16 +1,16 @@
 import Chain from 'src/models/chain'
 
-export const gnosisChain: Chain = {
-  id: '0x64',
-  token: 'xDai',
-  shortName: 'gno',
-  label: 'Gnosis Chain',
-  rpcUrl: 'https://rpc.gnosischain.com',
-  blockExplorerUrl: 'https://gnosisscan.io',
-  color: '#3e6957',
-  transactionServiceUrl: 'https://safe-transaction-gnosis-chain.safe.global',
-  isStripePaymentsEnabled: false
-}
+// export const gnosisChain: Chain = {
+//   id: '0x64',
+//   token: 'xDai',
+//   shortName: 'gno',
+//   label: 'Gnosis Chain',
+//   rpcUrl: 'https://rpc.gnosischain.com',
+//   blockExplorerUrl: 'https://gnosisscan.io',
+//   color: '#3e6957',
+//   transactionServiceUrl: 'https://safe-transaction-gnosis-chain.safe.global',
+//   isStripePaymentsEnabled: false
+// }
 
 export const goerliChain: Chain = {
   id: '0x5',
@@ -31,7 +31,7 @@ export const mainnetChain: Chain = {
   shortName: 'eth',
   rpcUrl: 'https://cloudflare-eth.com',
   blockExplorerUrl: 'https://etherscan.io',
-  color: '#DDDDDD',
+  color: '#1261ff',
   transactionServiceUrl: 'https://safe-transaction-mainnet.safe.global',
   isStripePaymentsEnabled: false
 }
@@ -52,7 +52,7 @@ export const mumbaiChain: Chain = {
   id: '0x13881',
   token: 'matic',
   shortName: 'matic',
-  label: 'Mumbai',
+  label: 'Polygon-Mumbai',
   rpcUrl: 'https://rpc-mumbai.maticvigil.com/',
   blockExplorerUrl: 'https://mumbai.polygonscan.com',
   color: '#8248E5',
@@ -60,8 +60,8 @@ export const mumbaiChain: Chain = {
   faucetUrl: 'https://mumbaifaucet.com/'
 }
 
-const chains: Chain[] = [gnosisChain, goerliChain, mainnetChain, mumbaiChain, polygonChain]
+const chains: Chain[] = [goerliChain, mainnetChain, mumbaiChain, polygonChain]
 
-export const initialChain = mumbaiChain
+export const initialChain = mainnetChain
 
 export default chains
